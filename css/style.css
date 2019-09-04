@@ -1,0 +1,63 @@
+body{
+    font-family: 'Lateef', cursive;
+
+
+}
+header{
+}
+header h1{
+    text-align: right;
+    font-weight: bold;
+    font-size: 70px;
+    color: #09c;
+    letter-spacing: 3px;
+}
+header .btn{
+    color: #09c;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid #09c;
+    padding: 5px 15px;
+    letter-spacing: 2px
+}
+header .btn:hover{
+    background-color: #09c;
+    color: white
+}
+header input{
+    width: 300px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius : 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius : 15px;
+    border: 1px solid #09c;
+    background-color: #f7fafb;
+    margin-top: 10px;
+    height: 35px
+}
+.navbar{
+    background-color: #09c;
+    padding: 0;
+    margin: 0
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    background-color: white;
+    color: #09c;
+    padding: 10px 50px;
+    font-size: 25px
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    padding: 10px 50px;
+    font-size: 25px
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: white;
+    color: #09c
+}
+footer{
+    background: #09c;
+    margin-top: 500px;
+    color: white
+}
