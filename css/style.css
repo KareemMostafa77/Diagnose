@@ -8,7 +8,7 @@ header{
 header h1{
     text-align: right;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 50px;
     color: #09c;
     letter-spacing: 3px;
 }
@@ -58,6 +58,45 @@ header input{
 }
 footer{
     background: #09c;
-    margin-top: 500px;
     color: white
 }
+/* section start */
+
+.k-home{
+    color: #09c !important;
+}
+.k-home input{
+    
+    border-radius: 15px;
+    border: solid 3px #09c;
+    color: #09c !important;
+}
+
+/* To Change SVG Color */
+.change-my-color {
+  fill: #09c;
+}
+
+.k-d h3{
+    
+    width: 100%;
+    background: #09c;
+    color: white;
+    cursor: pointer;
+}
+.k-part1{
+    
+    display: flex;
+    height: !important;
+}
+
+.k-part2{
+    
+    display: none;
+}
+
+.k-part3{
+    
+    display: none;
+}
+
